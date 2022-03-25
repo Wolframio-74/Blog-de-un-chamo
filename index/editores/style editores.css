@@ -54,7 +54,7 @@ h1{
 color: #fff;
 }
 .blog-cont{
-padding: 20px;
+padding: 100px;
 width: 90%;
 background: #111;
 display: flex;
@@ -74,29 +74,45 @@ z-index: -1;
 opacity: 10%;
 }
 
-/* blog */
-h2{
+/* blog*/
+.titulo{
+font-size: 4vw;
 color: #fff;
+margin: 40px 0;
 }
 p{
+font-size: 2vw;
+margin: 20px 0;
 color: #fff;
+}
+
+h3{
+margin-top: 20px; 
+font-size: 3vw;
+color: #fff;
+}
+
+.ico{
+width: 40vw;
+height: 40vw;
+object-fit: cover;
 }
 
 @media screen and (max-width: 490px){
 	.butt{
-	font-size: 3vw;
+	font-size: 2.7vw;
 	}
 	.logo{
 	font-size: 4.5vw;
 	}
+	p{
+	font-size: 4vw;
+	}
 	.blog-cont{
-	padding: 0;
+	padding: 0 10px;
 	margin: 0;
 	width: 100%;
 	border: none;
 	background: unset;
-	}
-	.titulo{
-	font-size: 5vw;
 	}
 }
